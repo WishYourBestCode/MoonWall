@@ -1,0 +1,77 @@
+.parent-grid {
+    position: absolute;
+    top:0px;
+    display: grid;
+    grid-template-columns: 1fr; /* One column */
+    grid-template-rows: auto auto; /* Two rows: First for form and response, second for Moonlog */
+    gap: 20px; /* Add space between rows */
+    padding: 20px; /* Add some padding */
+}
+
+.form-and-response {
+    display: flex;
+    flex-direction: column; /* Stack form and response vertically */
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+}
+
+.moonlog-container {
+    background-color: #f1f1f1;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.textLabel{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    padding: 8px 15px;
+    color: black;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+
+
+.response-container {
+    color: black;
+    margin-top: 10px; /* Add space above */
+    padding: 10px;
+    min-height: 160px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    position: relative;
+}
+
+.response-container.visible {
+    opacity: 1;
+}
+.response-container ul li {
+    display: block;
+    padding: 5px 10px;
+    visibility: visible; /* Make sure it's visible */
+}
+
+
+.response-text {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+.response-text ul {
+    list-style-type: disc;  /* Display bullet points */
+    padding-left: 20px;     /* Add some padding to space the bullets */
+    margin: 0;
+}
+
+.response-text ul li {
+    display: block;         /* Ensure each <li> appears on its own line */
+
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 12px;
+    font-weight: 300;
+}

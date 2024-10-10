@@ -1,0 +1,48 @@
+.section #mountains_behind
+{
+    z-index:1;
+}
+
+.section #mountains_front
+{
+    z-index: 2;
+}
+.section h2#text
+{
+    position: relative;
+    color: #fff;
+    padding-left: 2rem;
+    white-space: nowrap;
+    font-size: 7.5vw;
+    transform: translateY(0px);
+    z-index: 9999;
+}
+.section #btn
+{
+    text-decoration: none;
+    padding: 8px 30px;
+    border-radius: 40px;
+    background: #fff;
+    color: #2b1055;
+    transform: translateY(100px);
+    font-size: 1.5em;
+    z-index: 9999;
+}
+.sec
+{
+    position: relative;
+    min-height: 500px;
+    padding: 100px;
+    background: #1c0522;
+}
+.sec h2
+{
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.sec p
+{
+    font-size: 1.2em;
+    color: #fff;
+}
