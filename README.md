@@ -1,13 +1,16 @@
 Project Overview
 Front-End
 
-The front-end uses React.
+Built with React for a responsive and interactive user experience.
+
 Bridge Server
 
-The bridge server is based on C++ and CMake.
+Developed in C++ with CMake for efficient performance and modular builds.
+
 Firewall
 
-The firewall is managed using PyCharm.
+Managed through PyCharm for streamlined development and debugging of Python-based firewall automation.
+
 Demo
 
-Watch the demo here
+▶️ Watch the demo here
